@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.header-title {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 400;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.header-title span i :nth-child(2) {
+    color: #fff;
+}
+
+.menu-items {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.logo span{
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Poppins", Arial, sans-serif;
+}
+nav ul{
+    display: flex;
+    gap:2rem;
+}
+
+nav ul li a {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.first-list{
+    font-weight: 400;
+    color: #c8a97e;
+    font-size: 14px;
+}
+
+.last-list {
+    background: #c8a97e;
+    color: #fff;
+    border-radius: 5px;
+    width: 126px;
+    height: 53px;
+
+    font-size: 14px;
+    padding:15.8px 20px;
+    font-weight: 400;
+}
+
+
+.section1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    height: 740px;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.7)), url('https://preview.colorlib.com/theme/feliciano/images/bg_2.jpg');
+}
+.home-content {
+    width: 960px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.home-content span {
+    font-size: 80px;
+    color: #c8a97e;
+    font-weight: normal;
+    font-family: "Great Vibes", cursive;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.home-content h2 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.5;
+    font-family: "Poppins", Arial, sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1.5 rem;
+    margin-top: 1rem;
+}
+
+.dishes {
+    width: 1489px;
+    height: 205px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.row {
+    width:1489;
+    height: 175px;
+    display: flex;
+    gap: 15px;
+}
+.row1 {
+    width: 349px;
+    height: 155px;
+    text-align: center;
+}
+.row1-content img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+h3,h4,h5,h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #fff;
+    line-height: 1.5;
+}
+.row1-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.row2 {
+    width: 349px;
+    height: 155px;
+   
+    text-align: center;
+}
+.row2-content img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.row2-text p,.row3-text p, .row4-text p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.row3 {
+    width: 349px;
+    height: 155px;
+    text-align: center;
+}
+.row3-content img,.row4-content img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.row4 {
+    width: 349px;
+    height: 155px;
+    text-align: center;
+}
